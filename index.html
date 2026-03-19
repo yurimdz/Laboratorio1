@@ -4,54 +4,88 @@
     <meta charset="UTF-8">
     <title>Currículum - Tu Nombre</title>
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-<div class="container">
-    <header>
-        <h1>Tu Nombre</h1>
-        <p>Desarrollador Web | Estudiante</p>
-    </header>
+<div class="cv">
 
-    <section class="info">
-        <h2>Información de Contacto</h2>
-        <p>Email: tunombre@email.com</p>
-        <p>Teléfono: 8888-8888</p>
-        <p>Ubicación: Colombia</p>
-    </section>
+    <!-- COLUMNA IZQUIERDA -->
+    <aside class="left">
 
-    <section>
-        <h2>Perfil</h2>
-        <p>Soy una persona responsable, apasionada por la tecnología y con interés en el desarrollo web. Me gusta aprender constantemente y trabajar en equipo.</p>
-    </section>
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="Foto">
+            <h1>Tu Nombre</h1>
+            <p>Desarrollador Web</p>
+        </div>
 
-    <section>
-        <h2>Educación</h2>
-        <ul>
-            <li><strong>Universidad XYZ</strong> - Ingeniería en Sistemas (2022 - Actualidad)</li>
-            <li><strong>Colegio ABC</strong> - Bachillerato (2017 - 2021)</li>
-        </ul>
-    </section>
+        <div class="section">
+            <h2>Contacto</h2>
+            <p><i class="fas fa-envelope"></i> correo@email.com</p>
+            <p><i class="fas fa-phone"></i> 8888-8888</p>
+            <p><i class="fas fa-location-dot"></i> Colombia</p>
+        </div>
 
-    <section>
-        <h2>Experiencia</h2>
-        <ul>
-            <li>
-                <strong>Empresa Ejemplo</strong> - Practicante
-                <p>Desarrollo de páginas web y mantenimiento de sistemas.</p>
-            </li>
-        </ul>
-    </section>
+        <div class="section">
+            <h2>Habilidades</h2>
+            <div class="skill">
+                <p>HTML</p>
+                <div class="bar"><div style="width:90%"></div></div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="bar"><div style="width:85%"></div></div>
+            </div>
+            <div class="skill">
+                <p>C#</p>
+                <div class="bar"><div style="width:75%"></div></div>
+            </div>
+        </div>
 
-    <section>
-        <h2>Habilidades</h2>
-        <ul class="skills">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>C#</li>
-            <li>SQL</li>
-        </ul>
-    </section>
+    </aside>
+
+    <!-- COLUMNA DERECHA -->
+    <main class="right">
+
+        <section>
+            <h2>Perfil</h2>
+            <p>
+                Estudiante de ingeniería con interés en desarrollo web, apasionada por la tecnología
+                y el aprendizaje continuo. Me destaco por trabajar en equipo y resolver problemas.
+            </p>
+        </section>
+
+        <section>
+            <h2>Experiencia</h2>
+
+            <div class="item">
+                <h3>Empresa Ejemplo</h3>
+                <span>2023 - Actualidad</span>
+                <p>Desarrollo y mantenimiento de aplicaciones web.</p>
+            </div>
+
+            <div class="item">
+                <h3>Proyecto Universitario</h3>
+                <span>2022</span>
+                <p>Creación de sistema en C# con base de datos.</p>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Educación</h2>
+
+            <div class="item">
+                <h3>Universidad de Costa Rica (UCR)</h3>
+                <span>2023 - 2026</span>
+                <p>Informática Empresarial</p>
+            </div>
+
+        </section>
+
+    </main>
 
 </div>
 
