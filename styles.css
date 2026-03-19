@@ -9,7 +9,7 @@ body {
     max-width: 1000px;
     margin: 30px auto;
     background: white;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
 }
 
 /* COLUMNA IZQUIERDA */
@@ -24,11 +24,11 @@ body {
     text-align: center;
 }
 
-.profile img {
+/*.profile img {
     width: 120px;
     border-radius: 50%;
     margin-bottom: 10px;
-}
+}*/
 
 .profile h1 {
     margin: 10px 0 5px;
@@ -55,7 +55,7 @@ body {
 }
 
 .bar {
-    background: #334155;
+    background: #ea9bcd;
     height: 8px;
     border-radius: 5px;
 }
